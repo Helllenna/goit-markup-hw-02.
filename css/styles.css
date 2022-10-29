@@ -1,3 +1,10 @@
+:root{
+    background-color: blueviolet;
+    --main-bg-color: brown;
+    --main-color: brown;
+    --seconder-color: brown;
+    --main-text-color: brown;
+}
 
 body {
     font-family: Roboto, sans-serif;
