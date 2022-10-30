@@ -8,6 +8,7 @@
     --main-text-color: #757575;
     --seconder-text-color: #FFFFFF;
     --third-bg-color:#F5F5F5;
+    --fourth-bg-color: #F5F4FA;
 }
 
 h1,
@@ -124,8 +125,42 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.7143;
  }
- .business { }
+ .business { 
+    background-color: var(--third-bg-color);
+ }
  .about-title { }
  .business-list { }
- .team { }
- .team-list { }
+ .team {
+    background-color: var(--fourth-bg-color);
+  }
+ .team-list {
+    background-color: var(--main-bg-color);
+ }
+ .team-title {
+color: var(--main-h-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.1875;
+ }
+ .team-text {
+color: var(--main-text-color);
+font-size: 16px;
+line-height: 1.1875;
+ }
+ /* footer */
+ .address {
+color: var(--seconder-text-color);
+ font-style: normal; 
+font-size: 14px;
+line-height: 1.7143;
+ }
+ .footer {
+    background-color: var(--seconder-bg-color);
+ }
+.footer-contact {
+color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+ }
