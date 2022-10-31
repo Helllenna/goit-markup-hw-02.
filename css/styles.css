@@ -58,12 +58,16 @@ body {
 .header-nav { }
 .header-nav-link {
     color: var(--third-btn-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1429;
+    letter-spacing: 0.02em;
 }
 .current { 
     color: var(--main-btn-color);
 }
 .header-contact { 
-    /* color: var(--main-text-color); */
+    color: var(--main-text-color);
 }
 .header-nav-link:hover,
 .header-nav-link:focus,
@@ -115,8 +119,7 @@ cursor: pointer;
 .about {
  background-color: var(--third-bg-color);
  }
-.about-title { 
-    color: var(--main-h-color)
+.title {  color: var(--main-h-color);
 font-size: 36px;
 line-height: 1.1667;
 /* text-align: center; */
@@ -183,11 +186,11 @@ letter-spacing: 0.03em;
    color: var(--main-btn-color);}
 
  /* Portfolio */
- .Portfolio {
-    background-color: var(--third-bg-color);
+ .portfolio {
+    /* background-color: var(--third-bg-color); */
  }
 
-.Portfolio-button{
+.portfolio-button{
  font-family: Roboto, sans-serif;
  color: var(--third-btn-color);
  background-color: var(--fourth-bg-color);
@@ -199,17 +202,17 @@ line-height: 1.62;
 letter-spacing: 0.03em;
 cursor: pointer;
 }
-.Portfolio-button:hover,
-.Portfolio-button:focus,
-.Portfolio-button.current {
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button.current {
   color: var(--fourth-btn-color);
 background-color: var(--main-btn-color);
 }
-.Portfolio-item {
+.portfolio-item {
 background-color: var(--main-bg-color);
 }
 
-.Portfolio-title {
+.portfolio-title {
 color: var(--main-h-color);
 font-size: 18px;
 line-height: 2;
@@ -217,8 +220,8 @@ line-height: 2;
 letter-spacing: 0.06em;
 }
 
-.Portfolio-text {
-/* color: var(--main-text-color); */
+.portfolio-text {
+color: var(--main-text-color);
 font-size: 16px;
 line-height: 1.88;
 /* identical to box height, or 188% */
