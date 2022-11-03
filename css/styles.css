@@ -174,6 +174,11 @@ color: var(--seconder-text-color);
  font-style: normal; 
 font-size: 14px;
 line-height: 1.7143;
+}
+.address:hover,
+ .address:focus,
+ .address.current {
+   color: var(--main-btn-color);
  }
  .footer {
     background-color: var(--seconder-bg-color);
